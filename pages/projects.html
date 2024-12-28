@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noah Weeks | Projects</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet" />
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const yearElement = document.getElementById('currentYear');
+            yearElement.textContent = new Date().getFullYear();
+        });</script>
+</head>
+<body>
+    <header>
+        <h1>Noah Weeks</h1>
+        <p>Software Engineer | Cybersecurity Specialist | Visionary Entrepreneur</p>
+    </header>
+
+    <main class="container my-5">
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Explore a showcase of my most impactful and innovative projects.</p>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="card" style="border: none; background: linear-gradient(90deg, #800020, #000000); color: white;">
+                        <div class="card-body">
+                            <h5 class="card-title">DnD Campaign Game</h5>
+                            <p class="card-text">A text-based Dungeons and Dragons campaign game with SQLite database integration for story progression tracking.</p>
+                            <a href="https://github.com/Coding-for-Weeks/DnD-Campaign-Game" class="btn btn-dark">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card" style="border: none; background: linear-gradient(90deg, #800020, #000000); color: white;">
+                        <div class="card-body">
+                            <h5 class="card-title">CalmQuest</h5>
+                            <p class="card-text">A mental health and well-being app featuring meditation, goal tracking, and assisted reflection. Developed using Python and JavaScript.</p>
+                            <a href="#" class="btn btn-dark">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        <p>&copy; <span id="currentYear"></span> Noah Weeks. All Rights Reserved.</p>
+        <nav>
+            <a href="/index.html" class="me-3">Dashboard</a>
+            <a href="/pages/about.html" class="me-3">About Me</a>
+            <a href="/pages/skills.html" class="me-3">Skills</a>
+        </nav>
+        <p>Contact: <a href="mailto:weeks.it.solutions@gmail.com">weeks.it.solutions@gmail.com</a></p>
+    </footer>
+</body>
+</html>

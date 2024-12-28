@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noah Weeks | Dashboard</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const yearElement = document.getElementById('currentYear');
+            yearElement.textContent = new Date().getFullYear();
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Noah Weeks</h1>
+        <p>Software Engineer | Cybersecurity Specialist | Visionary Entrepreneur</p>
+    </header>
+
+    <main class="container my-5">
+        <section id="dashboard" class="text-center">
+            <h2>Welcome to My Dashboard</h2>
+            <p>Explore my professional journey, expertise, and skills across various domains.</p>
+
+            <div class="mt-4">
+                <a href="/pages/about.html" class="btn" style="background-color: #800020; color: white; border: none; padding: 10px 20px; border-radius: 5px;">Learn About Me</a>
+                <a href="/pages/skills.html" class="btn" style="background-color: #000000; color: white; border: none; padding: 10px 20px; border-radius: 5px;">Explore My Skills</a>
+                <a href="/pages/resume.html" class="btn" style="background-color: #800020; color: white; border: none; padding: 10px 20px; border-radius: 5px;">View My Resume</a>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card" style="border: none; background: linear-gradient(90deg, #800020, #000000); color: white;">
+                        <div class="card-body">
+                            <h5 class="card-title">Recent Projects</h5>
+                            <p class="card-text">Discover my latest project in software development and innovation.</p>
+                            <a href="/pages/projects.html" class="btn" style="background-color: #800020; color: white; border: none; padding: 10px 20px; border-radius: 5px;">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="border: none; background: linear-gradient(90deg, #800020, #000000); color: white;">
+                        <div class="card-body">
+                            <h5 class="card-title">Recent Tweets</h5>
+                            <p class="card-text">Read my tweets on the latest trends in technology and entrepreneurship.</p>
+                            <a href="/pages/tweets.html" class="btn" style="background-color: #800020; color: white; border: none; padding: 10px 20px; border-radius: 5px;">Explore Blog</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="border: none; background: linear-gradient(90deg, #800020, #000000); color: white;">
+                        <div class="card-body">
+                            <h5 class="card-title">Achievements</h5>
+                            <p class="card-text">Learn more about my certifications and professional milestones.</p>
+                            <a href="/pages/achievements.html" class="btn" style="background-color: #800020; color: white; border: none; padding: 10px 20px; border-radius: 5px;">View Achievements</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        <p>&copy; <span id="currentYear"></span> Noah Weeks. All Rights Reserved.</p>
+        <nav>
+            <a href="index.html" class="me-3">Dashboard</a>
+            <a href="/pages/about.html" class="me-3">About Me</a>
+            <a href="/pages/skills.html" class="me-3">Skills</a>
+        </nav>
+        <p>Contact: <a href="mailto:weeks.it.solutions@gmail.com">weeks.it.solutions@gmail.com</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noah Weeks | Skills</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet" />
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const yearElement = document.getElementById('currentYear');
+            yearElement.textContent = new Date().getFullYear();
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Noah Weeks</h1>
+        <p>Software Engineer | Cybersecurity Specialist | Visionary Entrepreneur</p>
+    </header>
+
+    <main class="container my-5">
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>Explore my technical skills and expertise across various domains.</p>
+
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card" style="border: none; background: linear-gradient(90deg, #800020, #000000); color: white;">
+                        <div class="card-body">
+                            <h5 class="card-title">Frontend Development</h5>
+                            <p class="card-text">Delivering dynamic and user-friendly experiences:</p>
+                            <ul>
+                                <li>HTML5 & CSS3</li>
+                                <li>JavaScript (ES6+)</li>
+                                <li>Responsive Design Principles</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="border: none; background: linear-gradient(90deg, #800020, #000000); color: white;">
+                        <div class="card-body">
+                            <h5 class="card-title">Backend Development</h5>
+                            <p class="card-text">Creating scalable and robust server-side applications:</p>
+                            <ul>
+                                <li>Python (3.9+)</li>
+                                <li>Ruby</li>
+                                <li>C# with .NET Framework</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="border: none; background: linear-gradient(90deg, #800020, #000000); color: white;">
+                        <div class="card-body">
+                            <h5 class="card-title">Scripting & Automation</h5>
+                            <p class="card-text">Enhancing efficiency through automated solutions:</p>
+                            <ul>
+                                <li>Bash Scripting</li>
+                                <li>PowerShell</li>
+                                <li>Workflow Optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        <p>&copy; <span id="currentYear"></span> Noah Weeks. All Rights Reserved.</p>
+        <nav>
+            <a href="/index.html" class="me-3">Dashboard</a>
+            <a href="/pages/about.html" class="me-3">About Me</a>
+            <a href="/pages/skills.html" class="me-3">Skills</a>
+        </nav>
+        <p>Contact: <a href="mailto:weeks.it.solutions@gmail.com">weeks.it.solutions@gmail.com</a></p>
+    </footer>
+</body>
+</html>
