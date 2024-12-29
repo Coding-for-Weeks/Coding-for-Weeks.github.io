@@ -1,12 +1,11 @@
-# LICENSE
+LICENSE
 
-## For Code
+For Code
 
-This project’s source code is licensed under the MIT License. You are free to use, modify, and distribute the code, provided that you include the original copyright and permission notice. See the full terms below:
+This projectâ€™s source code is licensed under the MIT License. You are free to use, modify, and distribute the code, provided that you include the original copyright and permission notice. See the full terms below:
 
----
 
-**MIT License**
+MIT License
 
 Copyright (c) Noah Weeks
 
@@ -16,21 +15,20 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
----
 
-## For Non-Code Content
+For Non-Code Content
 
 This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-nc-nd/4.0/](http://creativecommons.org/licenses/by-nc-nd/4.0/).
 
-### Attribution
+Attribution
 
 You must give appropriate credit by mentioning "Noah Weeks" and linking to the source at [coding-for-weeks.github.io](http://coding-for-weeks.github.io).
 
-### Non-Commercial
+Non-Commercial
 
 You may not use the material for commercial purposes.
 
-### No Derivatives
+No Derivatives
 
 If you remix, transform, or build upon the material, you may not distribute the modified material.
 
